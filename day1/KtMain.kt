@@ -3,8 +3,6 @@ package day1
 import java.io.File
 import java.nio.file.Paths
 
-class KtMain
-
 fun main() {
     val path = Paths.get("").toAbsolutePath().toString()
     val file = File("$path/day1/input.txt")
