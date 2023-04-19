@@ -31,7 +31,7 @@ public class Main {
     }
 
     public static void main(String[] args) throws IOException {
-        var path = Objects.requireNonNull(day1.Main.class.getClassLoader().getResource("")).getPath();
+        var path = Objects.requireNonNull(Main.class.getClassLoader().getResource("")).getPath();
         var file = new File(path + "/day2/input.txt");
 
         var input = "";
