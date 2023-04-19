@@ -1,4 +1,4 @@
-package day1;
+package day1.java;
 
 import java.io.*;
 import java.util.Objects;

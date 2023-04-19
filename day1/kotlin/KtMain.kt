@@ -1,4 +1,4 @@
-package day1
+package day1.kotlin
 
 import java.io.File
 import java.nio.file.Paths
